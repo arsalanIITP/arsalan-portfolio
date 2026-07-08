@@ -27,7 +27,7 @@
     "roles": ["Software Engineer","Developer","Designer","Thinker","Problem Solver","Teacher","Researcher","Father","Husband"],
     "description": "I'm an Engineer by heart, a Developer by profession, and a lifelong learner. I specialize in building scalable web applications and creating intuitive user experiences. I see problem-solving as an art form, and coding as a means to express that art. I believe in the power of collaboration, continuous learning, and the pursuit of excellence in every line of code I write.",
     "cta": { "label": "View My Work", "href": "#projects" },
-    "secondary": { "label": "Download CV", "href": "/resume.pdf" },
+    "secondary": { "label": "Download CV", "href": "/arsalan-portfolio/Arsalan_Adeeb_CV_2026.pdf" },
     "social": [
       { "name": "GitHub", "url": "https://github.com/arsalanIITP", "icon": "FiGithub" },
       { "name": "LinkedIn", "url": "https://www.linkedin.com/in/arsalan-adeeb/", "icon": "FiLinkedin" }

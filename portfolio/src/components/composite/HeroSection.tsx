@@ -137,7 +137,7 @@ export function HeroSection({ data }: { data: HeroData }) {
           <Description>{data.description}</Description>
           <CTARow>
             <Button href={data.cta.href} $variant="primary">{data.cta.label}</Button>
-            <Button href={data.secondary.href} $variant="outline">{data.secondary.label}</Button>
+            <Button href={data.secondary.href} $variant="outline" target="_blank" rel="noopener noreferrer" download>{data.secondary.label}</Button>
           </CTARow>
           <SocialRow>
             {data.social.map(s => (
