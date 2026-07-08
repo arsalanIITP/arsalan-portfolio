@@ -1,0 +1,295 @@
+{
+  "meta": {
+    "siteTitle": "Arsalan's | Portfolio",
+    "siteDescription": "Software Engineer Portfolio showcasing projects, skills, and experience.",
+    "siteKeywords": "Arsalan Adeeb, Portfolio, Software Engineer, Full Stack Developer, Web Developer, React, Next.js, Node.js, Open Source",
+    "siteAuthor": "Arsalan Adeeb",
+    "siteUrl": "https://arsalanadeeb.com",
+    "siteLanguage": "en-US",
+    "siteImage": "/images/portfolio-preview.png",
+    "favicon": "/favicon.ico"
+  },
+  "nav": {
+    "logo": "Arsalan",
+    "links": [
+      { "label": "About", "href": "#about" },
+      { "label": "Skills", "href": "#skills" },
+      { "label": "Experience", "href": "#experience" },
+      { "label": "Books", "href": "#books" },
+      { "label": "Projects", "href": "#projects" },
+      { "label": "Credentials", "href": "#credentials" },
+      { "label": "Contact", "href": "#contact" }
+    ]
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Arsalan Adeeb",
+    "roles": ["Software Engineer","Developer","Designer","Thinker","Problem Solver","Teacher","Researcher","Father","Husband"],
+    "description": "I'm an Engineer by heart, a Developer by profession, and a lifelong learner. I specialize in building scalable web applications and creating intuitive user experiences. I see problem-solving as an art form, and coding as a means to express that art. I believe in the power of collaboration, continuous learning, and the pursuit of excellence in every line of code I write.",
+    "cta": { "label": "View My Work", "href": "#projects" },
+    "secondary": { "label": "Download CV", "href": "/resume.pdf" },
+    "social": [
+      { "name": "GitHub", "url": "https://github.com/arsalanIITP", "icon": "FiGithub" },
+      { "name": "LinkedIn", "url": "https://www.linkedin.com/in/arsalan-adeeb/", "icon": "FiLinkedin" }
+    ]
+  },
+  "about": {
+    "title": "About Me",
+    "description": "Accomplished IT professional with 10 years of experience in corporate software engineering, specializing as a Full-Stack and Front-End UI Developer. I have a proven track record of architecting, maintaining, and scaling complex web applications — including managing a 2.5M+ line monorepo across 32+ microservices — and driving innovation through GenAI, RAG pipelines, and agentic workflows. Currently pursuing an M.Tech in AI & Data Science at IIT Patna.",
+    "highlights": [
+      "10+ years in enterprise-grade corporate software engineering",
+      "Specialized in GenAI, RAG pipelines, and agentic workflows",
+      "Managed 2.5M+ lines of code across 32+ microservices",
+      "M.Tech in AI & Data Science — IIT Patna",
+      "Competitive chess player with an 1800+ rapid rating"
+    ],
+    "stats": [
+      { "value": "10+", "label": "Years Experience" },
+      { "value": "2.5M+", "label": "Lines of Code" },
+      { "value": "32+", "label": "Microservices" }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Technologies I work with",
+    "categories": [
+      {
+        "name": "Frontend",
+        "icon": "FiMonitor",
+        "items": ["React", "Angular", "TypeScript", "Redux", "Next.js", "HTML5", "CSS3", "Bootstrap"]
+      },
+      {
+        "name": "Backend & Messaging",
+        "icon": "FiServer",
+        "items": ["Node.js", "Express", "Golang", "Ruby on Rails", "Kafka", "WebSockets", "Microservices", "AWS Lambda"]
+      },
+      {
+        "name": "Data & Databases",
+        "icon": "FiDatabase",
+        "items": ["PostgreSQL", "MongoDB", "Redis", "MySQL", "RAG Pipelines", "Agentic Flows"]
+      },
+      {
+        "name": "Cloud & DevOps",
+        "icon": "FiCloud",
+        "items": ["AWS Amplify", "Kubernetes", "Docker", "Git", "Datadog", "Amplitude", "Jest", "React Testing Library"]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "Where I've worked",
+    "items": [
+      {
+        "company": "ValueLabs",
+        "role": "System Analyst / Senior Developer",
+        "period": "Oct 2020 – Present",
+        "url": "https://valuelabs.com",
+        "projects": [
+          {
+            "name": "Client Outreach — Sales Orchestration Platform",
+            "period": "Dec 2022 – Present",
+            "tags": ["Golang", "React", "Redis", "Kafka", "Datadog", "AWS Amplify", "Kubernetes", "MongoDB", "PostgreSQL", "Ruby on Rails"],
+            "description": "Maintained and scaled a 2.5M+ line frontend monorepo across 32+ microservices. Designed RAG pipelines and agentic workflows, built full-stack features in Golang and React, managed high-throughput Kafka streams, and established production telemetry with Datadog and Amplitude.",
+            "live": "https://www.outreach.ai/"
+          },
+          {
+            "name": "Snapfish — Global E-Commerce Platform",
+            "period": "Dec 2022 – Sep 2023",
+            "tags": ["React", "Ruby on Rails", "MySQL", "Jest", "jQuery"],
+            "description": "Engineered and optimized the micro-frontend 'cart-app' checkout component deployed across 11 countries. Led jQuery-to-React migration with 100% backward compatibility and built POC solutions for security hardening and performance.",
+            "live": "https://www.snapfish.com/home"
+          },
+          {
+            "name": "Bronte — Pearson Education Portal",
+            "period": "Oct 2020 – Dec 2022",
+            "tags": ["React", "TypeScript", "Node.js", "AWS Lambda", "WebSockets", "Jest"],
+            "description": "Developed interactive React modules — Knowledge Maps, Publishing systems, and Schema Editors. Built serverless backend logic with Node.js and AWS Lambda. Resolved WCAG accessibility compliance issues across the platform.",
+            "live": "https://workspace-bronte.pearson.com/"
+          }
+        ]
+      },
+      {
+        "company": "PwC India",
+        "role": "Senior Engineer",
+        "period": "Sep 2019 – Oct 2020",
+        "url": "https://pwc.in",
+        "projects": [
+          {
+            "name": "Grange Insurance Portal",
+            "period": "Sep 2019 – Oct 2020",
+            "tags": ["React", "Redux", "Angular", "Gosu", "UI/UX"],
+            "description": "Contributed to greenfield architecture of a comprehensive insurance platform covering underwriting, billing, and claims. Led client communication, translated business needs into high-fidelity UI/UX designs, and built responsive pages in Angular and React/Redux.",
+            "live": "https://www.grangeinsurance.com/"
+          }
+        ]
+      },
+      {
+        "company": "LTM (formerly Larsen & Toubro Infotech)",
+        "role": "Engineer",
+        "period": "Jul 2017 – Sep 2019",
+        "url": "https://www.ltm.com/",
+        "projects": [
+          {
+            "name": "Campus CMS",
+            "period": "Sep 2017 – Sep 2019",
+            "tags": ["React", "Java", "Azure", "ES6", "CMS"],
+            "description": "Developed, tested, and scaled a CMS with role-based access control and multi-tiered permissions. Executed platform migrations, resolved production issues, and trained team members in ES6 and enterprise Java practices.",
+            "live": "https://corecampus.com/crm/"
+          }
+        ]
+      }
+    ]
+  },
+  "books": {
+    "title": "Books & Papers",
+    "subtitle": "What I'm reading",
+    "items": [
+      {
+        "title": "Prompt Engineering for LLMs",
+        "author": "John Berryman & Albert Ziegler",
+        "category": "Book",
+        "status": "Read",
+        "image": "https://covers.openlibrary.org/b/id/14752398-L.jpg",
+        "description": "The art and science of building Large Language Model-based applications — covers prompt design patterns, chain-of-thought, tool use, and practical LLM integration strategies for production systems.",
+        "link": ""
+      },
+      {
+        "title": "Designing Data-Intensive Applications",
+        "author": "Martin Kleppmann",
+        "category": "Book",
+        "status": "Read",
+        "image": "https://covers.openlibrary.org/b/isbn/9781449373320-L.jpg",
+        "description": "The definitive deep-dive into data systems — covering replication, partitioning, transactions, and stream processing at scale. Essential reading for any engineer owning distributed infrastructure.",
+        "link": ""
+      },
+      {
+        "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+        "author": "Lewis et al. — Meta AI Research",
+        "category": "Paper",
+        "status": "Read",
+        "image": "",
+        "description": "The foundational RAG paper combining parametric and non-parametric memory for open-domain QA. Directly shaped how I design RAG pipelines in production.",
+        "link": "https://arxiv.org/abs/2005.11401"
+      },
+      {
+        "title": "Building Microservices",
+        "author": "Sam Newman",
+        "category": "Book",
+        "status": "Read",
+        "image": "https://covers.openlibrary.org/b/isbn/9781492034025-L.jpg",
+        "description": "End-to-end guide for designing fine-grained microservice architectures with practical patterns for inter-service communication, deployment, and resilience.",
+        "link": ""
+      },
+      {
+        "title": "Attention Is All You Need",
+        "author": "Vaswani et al. — Google Brain",
+        "category": "Paper",
+        "status": "Read",
+        "image": "",
+        "description": "The transformer paper that underpins every modern LLM. Understanding the self-attention mechanism is foundational to all GenAI engineering.",
+        "link": "https://arxiv.org/abs/1706.03762"
+      },
+      {
+        "title": "Efficient Large Language Models: A Survey",
+        "author": "Wan et al.",
+        "category": "Paper",
+        "status": "Reading",
+        "image": "",
+        "description": "Comprehensive survey of techniques for making LLMs more efficient — quantization, pruning, distillation, and SLMs. Exploring for cost-efficient AWS GenAI deployments.",
+        "link": "https://arxiv.org/abs/2312.03863"
+      }
+    ]
+  },
+  "personalProjects": {
+    "title": "Personal Projects",
+    "subtitle": "What I build for fun",
+    "items": [
+      {
+        "name": "This Portfolio",
+        "description": "A config-driven developer portfolio built with Next.js, TypeScript, and styled-components. Every section — hero, skills, experience, books, credentials — is driven by a single JSON file with no code changes needed to update content.",
+        "tags": ["Next.js", "TypeScript", "styled-components", "React"],
+        "github": "https://github.com/arsalanIITP",
+        "live": "",
+        "status": "Active"
+      },
+      {
+        "name": "RAG Playground",
+        "description": "An experimental sandbox for testing Retrieval-Augmented Generation pipelines with different chunking strategies, embedding models, and retrieval algorithms. Built to accelerate my applied GenAI research.",
+        "tags": ["Python", "LangChain", "FAISS", "OpenAI API", "FastAPI"],
+        "github": "",
+        "live": "",
+        "status": "In Progress"
+      },
+      {
+        "name": "Coding Coach",
+        "description": "A tool that helps anyone improve their coding skills by solving one question slightly harder than their current level. It uses a custom algorithm to select questions based on user performance and provides hints and explanations for each problem.",
+        "tags": ["Golang", "React", "LLM"],
+        "github": "",
+        "live": "",
+        "status": "Planned"
+      }
+    ]
+  },
+  "credentials": {
+    "title": "Credentials",
+    "subtitle": "Education & certifications",
+    "items": [
+      {
+        "title": "M.Tech in Artificial Intelligence & Data Science",
+        "issuer": "Indian Institute of Technology (IIT), Patna",
+        "date": "2025 – 2027",
+        "type": "Education",
+        "description": "Year 1 completed. Coursework spans deep learning, NLP, statistical machine learning, and AI systems design. Thesis focus: applied GenAI and agentic workflows.",
+        "link": "https://www.iitp.ac.in/"
+      },
+      {
+        "title": "B.Tech in Electronics & Communication Engineering",
+        "issuer": "UP State University",
+        "date": "2012 – 2016",
+        "type": "Education",
+        "description": "Foundation in electronics, digital signal processing, communication systems, and embedded engineering.",
+        "link": ""
+      },
+      {
+        "title": "Problem Solving",
+        "issuer": "HackerRank",
+        "date": "2024",
+        "type": "Badge",
+        "stars": 5,
+        "description": "5-star badge with 49 challenges solved across algorithms and data structures.",
+        "link": "https://www.hackerrank.com/profile/arsalan_pa2503m1"
+      },
+      {
+        "title": "Python",
+        "issuer": "HackerRank",
+        "date": "2024",
+        "type": "Badge",
+        "stars": 5,
+        "description": "5-star badge with 24 challenges solved covering core Python and problem-solving.",
+        "link": "https://www.hackerrank.com/profile/arsalan_pa2503m1"
+      },
+      {
+        "title": "Supervised Machine Learning: Regression and Classification",
+        "issuer": "DeepLearning.AI — Coursera",
+        "date": "2025",
+        "type": "Certification",
+        "description": "Completed Andrew Ng's ML Specialization course covering linear regression, logistic regression, gradient descent, and regularization techniques.",
+        "link": "https://www.coursera.org/account/accomplishments/verify/KCWHUVIL58UL"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Let's work together",
+    "description": "I'm open to senior engineering roles, consulting, and collaboration on challenging technical problems — especially those at the intersection of AI and scalable web systems. My inbox is always open.",
+    "email": "ashnalife@gmail.com",
+    "social": [
+      { "name": "GitHub", "url": "https://github.com/arsalanIITP", "icon": "FiGithub" },
+      { "name": "LinkedIn", "url": "https://www.linkedin.com/in/arsalan-adeeb/", "icon": "FiLinkedin" }
+    ]
+  },
+  "footer": {
+    "text": "Designed & Built by Arsalan Adeeb",
+    "year": "2024"
+  }
+}
