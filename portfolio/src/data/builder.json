@@ -12,41 +12,99 @@
   "nav": {
     "logo": "Arsalan",
     "links": [
-      { "label": "About", "href": "#about" },
-      { "label": "Skills", "href": "#skills" },
-      { "label": "Experience", "href": "#experience" },
-      { "label": "Books", "href": "#books" },
-      { "label": "Projects", "href": "#projects" },
-      { "label": "Credentials", "href": "#credentials" },
-      { "label": "Contact", "href": "#contact" }
+      {
+        "label": "About",
+        "href": "#about"
+      },
+      {
+        "label": "Skills",
+        "href": "#skills"
+      },
+      {
+        "label": "Experience",
+        "href": "#experience"
+      },
+      {
+        "label": "Books",
+        "href": "#books"
+      },
+      {
+        "label": "Blog",
+        "href": "#blog"
+      },
+      {
+        "label": "Projects",
+        "href": "#projects"
+      },
+      {
+        "label": "Credentials",
+        "href": "#credentials"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
     ]
   },
   "hero": {
     "greeting": "Hi, I'm",
     "name": "Arsalan Adeeb",
-    "roles": ["Software Engineer","Developer","Designer","Thinker","Problem Solver","Teacher","Researcher","Father","Husband"],
+    "roles": [
+      "Software Engineer",
+      "Developer",
+      "Designer",
+      "Thinker",
+      "Problem Solver",
+      "Teacher",
+      "Researcher",
+      "Father",
+      "Husband"
+    ],
     "description": "I'm an Engineer by heart, a Developer by profession, and a lifelong learner. I specialize in building scalable web applications and creating intuitive user experiences. I see problem-solving as an art form, and coding as a means to express that art. I believe in the power of collaboration, continuous learning, and the pursuit of excellence in every line of code I write.",
-    "cta": { "label": "View My Work", "href": "#projects" },
-    "secondary": { "label": "Download CV", "href": "/arsalan-portfolio/Arsalan_Adeeb_CV_2026.pdf" },
+    "cta": {
+      "label": "View My Work",
+      "href": "#projects"
+    },
+    "secondary": {
+      "label": "Download CV",
+      "href": "/arsalan-portfolio/Arsalan_Adeeb_CV_2026.pdf"
+    },
     "social": [
-      { "name": "GitHub", "url": "https://github.com/arsalanIITP", "icon": "FiGithub" },
-      { "name": "LinkedIn", "url": "https://www.linkedin.com/in/arsalan-adeeb/", "icon": "FiLinkedin" }
+      {
+        "name": "GitHub",
+        "url": "https://github.com/arsalanIITP",
+        "icon": "FiGithub"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/arsalan-adeeb/",
+        "icon": "FiLinkedin"
+      }
     ]
   },
   "about": {
     "title": "About Me",
-    "description": "Accomplished IT professional with 10 years of experience in corporate software engineering, specializing as a Full-Stack and Front-End UI Developer. I have a proven track record of architecting, maintaining, and scaling complex web applications — including managing a 2.5M+ line monorepo across 32+ microservices — and driving innovation through GenAI, RAG pipelines, and agentic workflows. Currently pursuing an M.Tech in AI & Data Science at IIT Patna.",
+    "description": "Accomplished IT professional with 10 years of experience in corporate software engineering, specializing as a Full-Stack and Front-End UI Developer. I have a proven track record of architecting, maintaining, and scaling complex web applications \u2014 including managing a 2.5M+ line monorepo across 32+ microservices \u2014 and driving innovation through GenAI, RAG pipelines, and agentic workflows. Currently pursuing an M.Tech in AI & Data Science at IIT Patna.",
     "highlights": [
       "10+ years in enterprise-grade corporate software engineering",
       "Specialized in GenAI, RAG pipelines, and agentic workflows",
       "Managed 2.5M+ lines of code across 32+ microservices",
-      "M.Tech in AI & Data Science — IIT Patna",
+      "M.Tech in AI & Data Science \u2014 IIT Patna",
       "Competitive chess player with an 1800+ rapid rating"
     ],
     "stats": [
-      { "value": "10+", "label": "Years Experience" },
-      { "value": "2.5M+", "label": "Lines of Code" },
-      { "value": "32+", "label": "Microservices" }
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "2.5M+",
+        "label": "Lines of Code"
+      },
+      {
+        "value": "32+",
+        "label": "Microservices"
+      }
     ]
   },
   "skills": {
@@ -56,22 +114,83 @@
       {
         "name": "Frontend",
         "icon": "FiMonitor",
-        "items": ["React", "Angular", "TypeScript", "Redux", "Next.js", "HTML5", "CSS3", "Bootstrap"]
+        "items": [
+          { "name": "React", "level": 4 },
+          { "name": "Angular", "level": 4 },
+          {
+            "name": "TypeScript",
+            "level": 4,
+            "certified": true,
+            "certificateName": "JavaScript: Weird Parts and ES6+ (Udemy)"
+          },
+          { "name": "Redux", "level": 4 },
+          { "name": "Next.js", "level": 4 },
+          { "name": "HTML5", "level": 4 },
+          { "name": "CSS3", "level": 4 },
+          { "name": "Bootstrap", "level": 4 }
+        ]
       },
       {
-        "name": "Backend & Messaging",
+        "name": "Backend",
         "icon": "FiServer",
-        "items": ["Node.js", "Express", "Golang", "Ruby on Rails", "Kafka", "WebSockets", "Microservices", "AWS Lambda"]
+        "items": [
+          { "name": "Node.js", "level": 4 },
+          { "name": "Express", "level": 4 },
+          { "name": "Golang", "level": 4 },
+          { "name": "Ruby on Rails", "level": 4 },
+          { "name": "Kafka", "level": 4 },
+          { "name": "WebSockets", "level": 4 },
+          { "name": "Microservices", "level": 4 }
+        ]
       },
       {
-        "name": "Data & Databases",
+        "name": "Database",
         "icon": "FiDatabase",
-        "items": ["PostgreSQL", "MongoDB", "Redis", "MySQL", "RAG Pipelines", "Agentic Flows"]
+        "items": [
+          {
+            "name": "PostgreSQL",
+            "level": 4,
+            "certified": true,
+            "certificateName": "Database Designing & Intermediate PostgreSQL (University of Michigan)"
+          },
+          { "name": "MongoDB", "level": 4 },
+          { "name": "Redis", "level": 4 },
+          { "name": "MySQL", "level": 4 }
+        ]
       },
       {
-        "name": "Cloud & DevOps",
+        "name": "AI",
+        "icon": "FiCpu",
+        "items": [
+          {
+            "name": "RAG Pipelines",
+            "level": 4,
+            "certified": true,
+            "certificateName": "Supervised Machine Learning: Regression and Classification (DeepLearning.AI)"
+          },
+          { "name": "Agentic Flows", "level": 4 }
+        ]
+      },
+      {
+        "name": "DevOps",
+        "icon": "FiTool",
+        "items": [
+          { "name": "Docker", "level": 4 },
+          { "name": "Git", "level": 4 },
+          { "name": "Datadog", "level": 4 },
+          { "name": "Amplitude", "level": 4 },
+          { "name": "Jest", "level": 4 },
+          { "name": "React Testing Library", "level": 4 }
+        ]
+      },
+      {
+        "name": "Cloud",
         "icon": "FiCloud",
-        "items": ["AWS Amplify", "Kubernetes", "Docker", "Git", "Datadog", "Amplitude", "Jest", "React Testing Library"]
+        "items": [
+          { "name": "AWS Amplify", "level": 4 },
+          { "name": "AWS Lambda", "level": 4 },
+          { "name": "Kubernetes", "level": 4 }
+        ]
       }
     ]
   },
@@ -82,28 +201,52 @@
       {
         "company": "ValueLabs",
         "role": "System Analyst / Senior Developer",
-        "period": "Oct 2020 – Present",
+        "period": "Oct 2020 \u2013 Present",
         "url": "https://valuelabs.com",
         "projects": [
           {
-            "name": "Client Outreach — Sales Orchestration Platform",
-            "period": "Dec 2022 – Present",
-            "tags": ["Golang", "React", "Redis", "Kafka", "Datadog", "AWS Amplify", "Kubernetes", "MongoDB", "PostgreSQL", "Ruby on Rails"],
+            "name": "Client Outreach \u2014 Sales Orchestration Platform",
+            "period": "Dec 2022 \u2013 Present",
+            "tags": [
+              "Golang",
+              "React",
+              "Redis",
+              "Kafka",
+              "Datadog",
+              "AWS Amplify",
+              "Kubernetes",
+              "MongoDB",
+              "PostgreSQL",
+              "Ruby on Rails"
+            ],
             "description": "Maintained and scaled a 2.5M+ line frontend monorepo across 32+ microservices. Designed RAG pipelines and agentic workflows, built full-stack features in Golang and React, managed high-throughput Kafka streams, and established production telemetry with Datadog and Amplitude.",
             "live": "https://www.outreach.ai/"
           },
           {
-            "name": "Snapfish — Global E-Commerce Platform",
-            "period": "Dec 2022 – Sep 2023",
-            "tags": ["React", "Ruby on Rails", "MySQL", "Jest", "jQuery"],
+            "name": "Snapfish \u2014 Global E-Commerce Platform",
+            "period": "Dec 2022 \u2013 Sep 2023",
+            "tags": [
+              "React",
+              "Ruby on Rails",
+              "MySQL",
+              "Jest",
+              "jQuery"
+            ],
             "description": "Engineered and optimized the micro-frontend 'cart-app' checkout component deployed across 11 countries. Led jQuery-to-React migration with 100% backward compatibility and built POC solutions for security hardening and performance.",
             "live": "https://www.snapfish.com/home"
           },
           {
-            "name": "Bronte — Pearson Education Portal",
-            "period": "Oct 2020 – Dec 2022",
-            "tags": ["React", "TypeScript", "Node.js", "AWS Lambda", "WebSockets", "Jest"],
-            "description": "Developed interactive React modules — Knowledge Maps, Publishing systems, and Schema Editors. Built serverless backend logic with Node.js and AWS Lambda. Resolved WCAG accessibility compliance issues across the platform.",
+            "name": "Bronte \u2014 Pearson Education Portal",
+            "period": "Oct 2020 \u2013 Dec 2022",
+            "tags": [
+              "React",
+              "TypeScript",
+              "Node.js",
+              "AWS Lambda",
+              "WebSockets",
+              "Jest"
+            ],
+            "description": "Developed interactive React modules \u2014 Knowledge Maps, Publishing systems, and Schema Editors. Built serverless backend logic with Node.js and AWS Lambda. Resolved WCAG accessibility compliance issues across the platform.",
             "live": "https://workspace-bronte.pearson.com/"
           }
         ]
@@ -111,13 +254,19 @@
       {
         "company": "PwC India",
         "role": "Senior Engineer",
-        "period": "Sep 2019 – Oct 2020",
+        "period": "Sep 2019 \u2013 Oct 2020",
         "url": "https://pwc.in",
         "projects": [
           {
             "name": "Grange Insurance Portal",
-            "period": "Sep 2019 – Oct 2020",
-            "tags": ["React", "Redux", "Angular", "Gosu", "UI/UX"],
+            "period": "Sep 2019 \u2013 Oct 2020",
+            "tags": [
+              "React",
+              "Redux",
+              "Angular",
+              "Gosu",
+              "UI/UX"
+            ],
             "description": "Contributed to greenfield architecture of a comprehensive insurance platform covering underwriting, billing, and claims. Led client communication, translated business needs into high-fidelity UI/UX designs, and built responsive pages in Angular and React/Redux.",
             "live": "https://www.grangeinsurance.com/"
           }
@@ -126,13 +275,19 @@
       {
         "company": "LTM (formerly Larsen & Toubro Infotech)",
         "role": "Engineer",
-        "period": "Jul 2017 – Sep 2019",
+        "period": "Jul 2017 \u2013 Sep 2019",
         "url": "https://www.ltm.com/",
         "projects": [
           {
             "name": "Campus CMS",
-            "period": "Sep 2017 – Sep 2019",
-            "tags": ["React", "Java", "Azure", "ES6", "CMS"],
+            "period": "Sep 2017 \u2013 Sep 2019",
+            "tags": [
+              "React",
+              "Java",
+              "Azure",
+              "ES6",
+              "CMS"
+            ],
             "description": "Developed, tested, and scaled a CMS with role-based access control and multi-tiered permissions. Executed platform migrations, resolved production issues, and trained team members in ES6 and enterprise Java practices.",
             "live": "https://corecampus.com/crm/"
           }
@@ -150,7 +305,7 @@
         "category": "Book",
         "status": "Read",
         "image": "https://covers.openlibrary.org/b/id/14752398-L.jpg",
-        "description": "The art and science of building Large Language Model-based applications — covers prompt design patterns, chain-of-thought, tool use, and practical LLM integration strategies for production systems.",
+        "description": "The art and science of building Large Language Model-based applications \u2014 covers prompt design patterns, chain-of-thought, tool use, and practical LLM integration strategies for production systems.",
         "link": ""
       },
       {
@@ -159,12 +314,12 @@
         "category": "Book",
         "status": "Read",
         "image": "https://covers.openlibrary.org/b/isbn/9781449373320-L.jpg",
-        "description": "The definitive deep-dive into data systems — covering replication, partitioning, transactions, and stream processing at scale. Essential reading for any engineer owning distributed infrastructure.",
+        "description": "The definitive deep-dive into data systems \u2014 covering replication, partitioning, transactions, and stream processing at scale. Essential reading for any engineer owning distributed infrastructure.",
         "link": ""
       },
       {
         "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
-        "author": "Lewis et al. — Meta AI Research",
+        "author": "Lewis et al. \u2014 Meta AI Research",
         "category": "Paper",
         "status": "Read",
         "image": "",
@@ -182,7 +337,7 @@
       },
       {
         "title": "Attention Is All You Need",
-        "author": "Vaswani et al. — Google Brain",
+        "author": "Vaswani et al. \u2014 Google Brain",
         "category": "Paper",
         "status": "Read",
         "image": "",
@@ -195,8 +350,50 @@
         "category": "Paper",
         "status": "Reading",
         "image": "",
-        "description": "Comprehensive survey of techniques for making LLMs more efficient — quantization, pruning, distillation, and SLMs. Exploring for cost-efficient AWS GenAI deployments.",
+        "description": "Comprehensive survey of techniques for making LLMs more efficient \u2014 quantization, pruning, distillation, and SLMs. Exploring for cost-efficient AWS GenAI deployments.",
         "link": "https://arxiv.org/abs/2312.03863"
+      }
+    ]
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Writing on Hashnode & Medium",
+    "items": [
+      {
+        "title": "Database Indexing: Intuition to Implementation",
+        "platform": "Medium",
+        "date": "Jul 2026",
+        "link": "https://medium.com/@arsalanadeeb/database-indexing-intuition-to-implementation-04bb4348490c"
+      },
+      {
+        "title": "Why Object.create Is More Than Just Object Creation?",
+        "platform": "Hashnode",
+        "date": "Jan 2025",
+        "link": "https://logicbricks.hashnode.dev/why-objectcreate-is-more-than-just-object-creation"
+      },
+      {
+        "title": "Isomorphic Development and ReactJS",
+        "platform": "Hashnode",
+        "date": "Jan 2025",
+        "link": "https://logicbricks.hashnode.dev/isomorphic-development-and-reactjs"
+      },
+      {
+        "title": "Implement It by Yourself Ep. 1: Event Emitter",
+        "platform": "Hashnode",
+        "date": "Jan 2025",
+        "link": "https://logicbricks.hashnode.dev/implement-it-by-yourself-ep-1-event-emitter"
+      },
+      {
+        "title": "JavaScript Debounce Deep Dive",
+        "platform": "Hashnode",
+        "date": "Dec 2024",
+        "link": "https://logicbricks.hashnode.dev/javascript-debounce-deep-dive"
+      },
+      {
+        "title": "Solution of Over-Centralization of State in React",
+        "platform": "Hashnode",
+        "date": "Dec 2024",
+        "link": "https://logicbricks.hashnode.dev/solution-of-over-centralization-of-states-in-react"
       }
     ]
   },
@@ -206,24 +403,39 @@
     "items": [
       {
         "name": "This Portfolio",
-        "description": "A config-driven developer portfolio built with Next.js, TypeScript, and styled-components. Every section — hero, skills, experience, books, credentials — is driven by a single JSON file with no code changes needed to update content.",
-        "tags": ["Next.js", "TypeScript", "styled-components", "React"],
-        "github": "https://github.com/arsalanIITP",
+        "description": "A config-driven developer portfolio built with Next.js, TypeScript, and styled-components. Every section \u2014 hero, skills, experience, books, credentials \u2014 is driven by a single JSON file with no code changes needed to update content.",
+        "tags": [
+          "Next.js",
+          "TypeScript",
+          "styled-components",
+          "React"
+        ],
+        "github": "https://github.com/arsalanIITP/arsalan-portfolio",
         "live": "",
         "status": "Active"
       },
       {
         "name": "RAG Playground",
         "description": "An experimental sandbox for testing Retrieval-Augmented Generation pipelines with different chunking strategies, embedding models, and retrieval algorithms. Built to accelerate my applied GenAI research.",
-        "tags": ["Python", "LangChain", "FAISS", "OpenAI API", "FastAPI"],
-        "github": "",
+        "tags": [
+          "Python",
+          "LangChain",
+          "FAISS",
+          "OpenAI API",
+          "FastAPI"
+        ],
+        "github": "https://github.com/arsalanIITP/RAG_AI",
         "live": "",
         "status": "In Progress"
       },
       {
         "name": "Coding Coach",
         "description": "A tool that helps anyone improve their coding skills by solving one question slightly harder than their current level. It uses a custom algorithm to select questions based on user performance and provides hints and explanations for each problem.",
-        "tags": ["Golang", "React", "LLM"],
+        "tags": [
+          "Golang",
+          "React",
+          "LLM"
+        ],
         "github": "",
         "live": "",
         "status": "Planned"
@@ -237,7 +449,7 @@
       {
         "title": "M.Tech in Artificial Intelligence & Data Science",
         "issuer": "Indian Institute of Technology (IIT), Patna",
-        "date": "2025 – 2027",
+        "date": "2025 \u2013 2027",
         "type": "Education",
         "description": "Year 1 completed. Coursework spans deep learning, NLP, statistical machine learning, and AI systems design. Thesis focus: applied GenAI and agentic workflows.",
         "link": "https://www.iitp.ac.in/"
@@ -245,7 +457,7 @@
       {
         "title": "B.Tech in Electronics & Communication Engineering",
         "issuer": "UP State University",
-        "date": "2012 – 2016",
+        "date": "2012 \u2013 2016",
         "type": "Education",
         "description": "Foundation in electronics, digital signal processing, communication systems, and embedded engineering.",
         "link": ""
@@ -269,8 +481,16 @@
         "link": "https://www.hackerrank.com/profile/arsalan_pa2503m1"
       },
       {
+        "title": "SQL",
+        "issuer": "HackerRank",
+        "date": "2025",
+        "type": "Badge",
+        "description": "Verified SQL skill badge on HackerRank.",
+        "link": "https://www.hackerrank.com/profile/arsalan_pa2503m1"
+      },
+      {
         "title": "Supervised Machine Learning: Regression and Classification",
-        "issuer": "DeepLearning.AI — Coursera",
+        "issuer": "DeepLearning.AI \u2014 Coursera",
         "date": "2025",
         "type": "Certification",
         "description": "Completed Andrew Ng's ML Specialization course covering linear regression, logistic regression, gradient descent, and regularization techniques.",
@@ -281,15 +501,30 @@
   "contact": {
     "title": "Get In Touch",
     "subtitle": "Let's work together",
-    "description": "I'm open to senior engineering roles, consulting, and collaboration on challenging technical problems — especially those at the intersection of AI and scalable web systems. My inbox is always open.",
+    "description": "I'm open to senior engineering roles, consulting, and collaboration on challenging technical problems \u2014 especially those at the intersection of AI and scalable web systems. My inbox is always open.",
     "email": "ashnalife@gmail.com",
     "social": [
-      { "name": "GitHub", "url": "https://github.com/arsalanIITP", "icon": "FiGithub" },
-      { "name": "LinkedIn", "url": "https://www.linkedin.com/in/arsalan-adeeb/", "icon": "FiLinkedin" }
+      {
+        "name": "GitHub",
+        "url": "https://github.com/arsalanIITP",
+        "icon": "FiGithub"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/arsalan-adeeb/",
+        "icon": "FiLinkedin"
+      }
     ]
   },
   "footer": {
     "text": "Designed & Built by Arsalan Adeeb",
     "year": "2024"
+  },
+  "portFolio_update_lookup_urls":{
+    "github": "https://api.github.com/users/arsalanIITP/repos",
+    "linkedin": "https://www.linkedin.com/in/arsalan-adeeb/",
+    "hackerrank": "https://www.hackerrank.com/profile/arsalan_pa2503m1",
+    "hashnode":"https://hashnode.com/@techieMonk",
+    "medium":"https://medium.com/@arsalanadeeb"
   }
 }

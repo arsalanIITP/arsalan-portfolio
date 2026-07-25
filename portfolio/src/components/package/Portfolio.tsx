@@ -9,6 +9,7 @@ import { AboutSection } from '@/components/composite/AboutSection';
 import { SkillsSection } from '@/components/composite/SkillsSection';
 import { ExperienceSection } from '@/components/composite/ExperienceSection';
 import { BooksSection } from '@/components/composite/BooksSection';
+import { BlogSection } from '@/components/composite/BlogSection';
 import { PersonalProjectsSection } from '@/components/composite/PersonalProjectsSection';
 import { CredentialsSection } from '@/components/composite/CredentialsSection';
 import { ContactSection } from '@/components/composite/ContactSection';
@@ -46,6 +47,7 @@ function PortfolioInner({ data }: { data: BuilderData }) {
           <SkillsSection data={data.skills} />
           <ExperienceSection data={data.experience} />
           <BooksSection data={data.books} />
+          <BlogSection data={data.blog} />
           <PersonalProjectsSection data={data.personalProjects} />
           <CredentialsSection data={data.credentials} />
           <ContactSection data={data.contact} />

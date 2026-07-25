@@ -31,10 +31,17 @@ export interface AboutData {
   stats: Stat[];
 }
 
+export interface SkillItem {
+  name: string;
+  level: number;
+  certified?: boolean;
+  certificateName?: string;
+}
+
 export interface SkillCategory {
   name: string;
   icon: string;
-  items: string[];
+  items: SkillItem[];
 }
 
 export interface SkillsData {
@@ -97,6 +104,20 @@ export interface BooksData {
   items: BookEntry[];
 }
 
+export interface BlogPost {
+  title: string;
+  platform: string;
+  date: string;
+  link: string;
+  description?: string;
+}
+
+export interface BlogData {
+  title: string;
+  subtitle: string;
+  items: BlogPost[];
+}
+
 export interface PersonalProject {
   name: string;
   description: string;
@@ -153,6 +174,7 @@ export interface BuilderData {
   skills: SkillsData;
   experience: ExperienceData;
   books: BooksData;
+  blog: BlogData;
   personalProjects: PersonalProjectsData;
   credentials: CredentialsData;
   contact: ContactData;
