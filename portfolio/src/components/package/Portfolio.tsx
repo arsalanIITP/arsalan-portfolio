@@ -3,6 +3,7 @@
 import { createGlobalStyle } from 'styled-components';
 import styled from 'styled-components';
 import { ThemeContextProvider } from '@/contexts/ThemeContext';
+import { ShutterProvider } from '@/contexts/ShutterContext';
 import { NavBar } from '@/components/composite/NavBar';
 import { HeroSection } from '@/components/composite/HeroSection';
 import { AboutSection } from '@/components/composite/AboutSection';
@@ -61,7 +62,9 @@ function PortfolioInner({ data }: { data: BuilderData }) {
 export default function Portfolio({ data }: { data: BuilderData }) {
   return (
     <ThemeContextProvider>
-      <PortfolioInner data={data} />
+      <ShutterProvider>
+        <PortfolioInner data={data} />
+      </ShutterProvider>
     </ThemeContextProvider>
   );
 }

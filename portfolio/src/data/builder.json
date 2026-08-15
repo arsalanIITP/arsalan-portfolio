@@ -411,7 +411,7 @@
           "React"
         ],
         "github": "https://github.com/arsalanIITP/arsalan-portfolio",
-        "live": "",
+        "live": "https://arsalaniitp.github.io/arsalan-portfolio/",
         "status": "Active"
       },
       {
@@ -490,11 +490,27 @@
       },
       {
         "title": "Supervised Machine Learning: Regression and Classification",
-        "issuer": "DeepLearning.AI \u2014 Coursera",
-        "date": "2025",
+        "issuer": "DeepLearning.AI & Stanford Online",
+        "date": "2026",
         "type": "Certification",
         "description": "Completed Andrew Ng's ML Specialization course covering linear regression, logistic regression, gradient descent, and regularization techniques.",
         "link": "https://www.coursera.org/account/accomplishments/verify/KCWHUVIL58UL"
+      },
+      {
+        "title": "PostgreSQL for Everybody Specialisation",
+        "issuer": "University of Michigan \u2014 Coursera",
+        "date": "2026",
+        "type": "Certification",
+        "description": "Specialisation covering relational design, SQL, indexing and query performance, JSON/JSONB, and full-text search in PostgreSQL.",
+        "link": "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
+      },
+      {
+        "title": "JavaScript: Understanding the Weird Parts & ES6+",
+        "issuer": "Udemy",
+        "date": "2022",
+        "type": "Certification",
+        "description": "Deep dive into JavaScript internals \u2014 execution contexts, scope chains, closures, prototypal inheritance, and modern ES6+ language features.",
+        "link": ""
       }
     ]
   },
@@ -518,13 +534,14 @@
   },
   "footer": {
     "text": "Designed & Built by Arsalan Adeeb",
-    "year": "2024"
+    "year": "2026"
   },
   "portFolio_update_lookup_urls":{
     "github": "https://api.github.com/users/arsalanIITP/repos",
     "linkedin": "https://www.linkedin.com/in/arsalan-adeeb/",
     "hackerrank": "https://www.hackerrank.com/profile/arsalan_pa2503m1",
     "hashnode":"https://hashnode.com/@techieMonk",
-    "medium":"https://medium.com/@arsalanadeeb"
+    "medium":"https://medium.com/@arsalanadeeb",
+    "coursera":"https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
   }
 }
