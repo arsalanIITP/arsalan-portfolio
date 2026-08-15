@@ -125,7 +125,7 @@
           { "name": "Redux", "level": 5 },
           { "name": "Next.js", "level": 5 },
           { "name": "HTML5", "level": 4 },
-          { "name": "CSS3", "level": 4 },
+          { "name": "CSS3", "level": 4 }
         ]
       },
       {
@@ -152,7 +152,7 @@
             "certificateName": "University of Michigan specialization on Coursera"
           },
           { "name": "MongoDB", "level": 4 },
-          { "name": "Redis", "level": 4 },
+          { "name": "Redis", "level": 4 }
         ]
       },
       {
