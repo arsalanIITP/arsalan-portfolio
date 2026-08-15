@@ -115,19 +115,17 @@
         "name": "Frontend",
         "icon": "FiMonitor",
         "items": [
-          { "name": "React", "level": 4 },
-          { "name": "Angular", "level": 4 },
+          { "name": "React", "level": 5 },
           {
             "name": "TypeScript",
-            "level": 4,
+            "level": 5,
             "certified": true,
             "certificateName": "JavaScript: Weird Parts and ES6+ (Udemy)"
           },
-          { "name": "Redux", "level": 4 },
-          { "name": "Next.js", "level": 4 },
+          { "name": "Redux", "level": 5 },
+          { "name": "Next.js", "level": 5 },
           { "name": "HTML5", "level": 4 },
           { "name": "CSS3", "level": 4 },
-          { "name": "Bootstrap", "level": 4 }
         ]
       },
       {
@@ -137,10 +135,10 @@
           { "name": "Node.js", "level": 4 },
           { "name": "Express", "level": 4 },
           { "name": "Golang", "level": 4 },
-          { "name": "Ruby on Rails", "level": 4 },
-          { "name": "Kafka", "level": 4 },
+          { "name": "Ruby on Rails", "level": 3 },
+          { "name": "Kafka", "level": 3 },
           { "name": "WebSockets", "level": 4 },
-          { "name": "Microservices", "level": 4 }
+          { "name": "Microservices", "level": 5 }
         ]
       },
       {
@@ -149,13 +147,12 @@
         "items": [
           {
             "name": "PostgreSQL",
-            "level": 4,
+            "level": 5,
             "certified": true,
-            "certificateName": "Database Designing & Intermediate PostgreSQL (University of Michigan)"
+            "certificateName": "University of Michigan specialization on Coursera"
           },
           { "name": "MongoDB", "level": 4 },
           { "name": "Redis", "level": 4 },
-          { "name": "MySQL", "level": 4 }
         ]
       },
       {
@@ -164,9 +161,9 @@
         "items": [
           {
             "name": "RAG Pipelines",
-            "level": 4,
+            "level": 5,
             "certified": true,
-            "certificateName": "Supervised Machine Learning: Regression and Classification (DeepLearning.AI)"
+            "certificateName": ""
           },
           { "name": "Agentic Flows", "level": 4 }
         ]
@@ -175,12 +172,12 @@
         "name": "DevOps",
         "icon": "FiTool",
         "items": [
-          { "name": "Docker", "level": 4 },
-          { "name": "Git", "level": 4 },
+          { "name": "Docker", "level": 3 },
+          { "name": "Git", "level": 5 },
           { "name": "Datadog", "level": 4 },
           { "name": "Amplitude", "level": 4 },
           { "name": "Jest", "level": 4 },
-          { "name": "React Testing Library", "level": 4 }
+          { "name": "React Testing Library", "level": 5 }
         ]
       },
       {
